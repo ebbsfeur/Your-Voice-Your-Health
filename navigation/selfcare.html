@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+<!--setting title as usa computing!-->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, intial-scale=1" />
+	<link rel="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/selfcare.css">
+	<title>Mental Health</title>
+	<link rel="shortcut icon" href="../images/favicon.ico">
+</head>
+
+
+
+<!--making a header and adding a picture!-->
+<body>
+		<header>
+		<h1>SelfCare</h1>
+		<!--<img src= "../images/welcome-hands.JPG" alt="headerpic" >--!>
+		</header>
+		<!--adding a nav menu!-->
+		
+		<nav id="nav_menu">
+		<ul>
+		<li><a href="../HomePage.html" >HomePage</a></li>
+		<li><a href="../navigation/disorders.html">Disorders</a></li>
+		<li><a href="../navigation/Therapy.html">Therpay</a></li>
+		<li><a href="../navigation/SelfCare.html" class="current">SelfCare</a></li>
+		<li><a href="../navigation/Journal.html" >Journal</a></li>
+		</ul>
+		</nav>
+</header>
+		<aside>
+		<p>The Most Common</br>Signs</br>.less active</br>.always tired</p>
+		</aside>
+		<h2>Self Care</h2>
+		<h3>Tips
+		<article>
+		<p> <li>Try to come up with a better sleeping schedule</li>
+		<li>Try to Schedule mental Heath Days for Yourself</li>
+		<li>Try to Find New Hobbies that can be your safe space</li>
+		<li>Try walking Outside when your overstimulated</li>
+		<li>Try listenin to music when your overstimulated</li>
+		<li>Try to Incorporate a Health Life Style</li>
+		<li>Surround yourself with encourgaging people</li>
+		<li>Regular check-ins with your Mentor or Therapist</li>
+		<li>Set tiny goals for yourseld throughout the week</li>
+		<li>Do breathing excercises when you feel yourself getting overstimulated.</li>
+		<li>Try Meditating or Yoga</li>
+		<li>Take yourself on a SelflCare Day</li></p>
+		</article>
+			<div class="slideshow">
+			<video src="../videos/video1.mp4" class="slide1" id="slide1" autoplay muted></video>
+			<video src="../videos/video.mp4" class="slide2" id="slide2" autoplay muted></video>	
+			<video src="../videos/video.mp4" class="slide3" id="slide3" autoplay muted></video>
+			<video src="../videos/video.mp4" class="slide4" id="slide4" autoplay muted></video>
+			<video src="../videos/video.mp4" class="slide5" id="slide5" autoplay muted></video>
+			</video>
+			</div>
+			<script>
+			var slide1 = document.getElementById('slide1');
+			var slide2 = document.getElementById('slide2');
+			var slide3 = document.getElementById('slide3');
+			var slide4 = document.getElementById('slide4');
+			var slide5 = document.getElementById('slide5');
+			
+			slide1.onended = function() {
+			slide2.play();
+			slide1.style.opacity=0;
+			slide2.style.opacity=1;
+			}
+			slide2.onended = function() {
+			slide3.play();
+			slide2.style.opacity=0;
+			slide3.style.opacity=1;
+			}slide3.onended = function() {
+			slide4.play();
+			slide3.style.opacity=0;
+			slide4.style.opacity=1;
+			}slide4.onended = function() {
+			slide5.play();
+			slide4.style.opacity=0;
+			slide5.style.opacity=1;
+			}slide5.onended = function() {
+			slide1.play();
+			slide5.style.opacity=0;
+			slide1.style.opacity=1;
+			}
+			</script>
+			<p>
+			</p>
+</body>
+<footer>
+<p>About </p>
+<ul>
+<li>About Me</li>
+<li>Staff</li>
+
+</ul>
+<p>Growth</p>
+<ul>
+<li>Why Get Involved</li>
+<li>jdfksdjk</li>
+
+</ul>
+<p>About Ebonie Feurtado</p>
+<ul>
+<li>sfhdjfh</li>
+<li>jdfksdjk</li>
+<li>sdkhjsdh</li>
+</ul>
+
+<h2>@designed by:ebonie feurtado</h2>
+</footer>
+</html>
